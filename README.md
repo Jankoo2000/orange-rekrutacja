@@ -15,12 +15,20 @@ Zadanie rekrutacyjne Orange - Wydziale Eksploracji Danych i Automatyzacji Ekosys
     git clone https://github.com/Jankoo2000/orange-rekrutacja.git
     ```
 
+2. **Przejdz do sklonowanego folderu**
+
+    ```bash
+    cd orange-rekrutacja
+    ```
+
 2. **Utwórz i aktywuj wirtualne środowisko Pythona:**
 
     ```bash
+    python -m venv venv
+    venv\Scripts\activate      # dla systemów Windows
     python3 -m venv venv
     source venv/bin/activate  # dla systemów UNIX
-    venv\Scripts\activate      # dla systemów Windows
+
     ```
 
 3. **Przejdź do katalogu projektu:**
